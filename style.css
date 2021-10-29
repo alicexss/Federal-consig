@@ -65,17 +65,23 @@ header.header-container nav img {
   max-width: 130px;
 }
 
+header.header-container nav .phones img {
+  width: 14px;
+}
+
 header.header-container .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex: 1;
+  margin-left: 10px;
 }
 
 header.header-container .navbar a {
   color: #001c7e;
   text-decoration: none;
   font-size: 14px;
+  margin-left: 5px;
 }
 
 header.header-container .phones {
@@ -189,7 +195,7 @@ section.contact-us .contact-us__content {
 .form-contact button {
   font-size: 16px;
   background: transparent;
-  border-color: #fff;
+  border: 1px solid #fff;
   border-radius: 100px;
   color: #fff;
   padding: 6px 24px;
@@ -206,4 +212,68 @@ section.contact-us .contact-us__content {
 footer {
   background-color: #0030d2;
   color: #ffffff;
+}
+
+footer .container img {
+  max-width: 100%;
+  width: 15%;
+}
+
+footer .container .social-icons {
+  display: flex;
+  align-items: center;
+}
+
+footer .container .social-icons img {
+  width: 36px;
+
+  padding: 5px;
+}
+
+footer .container .images-footer {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 38px;
+  margin-bottom: 38px;
+}
+
+footer .divider {
+  width: 100%;
+  border-top: 1px solid #001c7e;
+
+  padding: 20px;
+}
+
+footer .container .container-phone {
+  display: flex;
+  align-items: center;
+
+  margin-left: 28%;
+}
+
+footer .container .container-phone > div {
+  display: flex;
+  align-items: center;
+}
+
+footer .container .container-phone img {
+  width: 19px;
+}
+
+footer .container .container-phone p {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 48px;
+  margin: 5px;
+
+  margin-right: 16px;
+}
+
+footer .container .message p {
+  font-size: 10px;
+  margin-bottom: 25px;
+
+  text-align: center;
 }
